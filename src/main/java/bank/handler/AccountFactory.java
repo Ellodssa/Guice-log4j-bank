@@ -5,7 +5,8 @@ import bank.domain.SaveAccount;
 import com.google.inject.assistedinject.Assisted;
 
 /**
- * This version of the project implements a Google Guice  factory
+ * This version of the project implements a Google Guice  factory.
+ * We need to pull field in RUNTIME.
  */
 public interface AccountFactory {
     /**
